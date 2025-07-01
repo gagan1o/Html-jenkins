@@ -1,11 +1,39 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>CI Demo</title>
+    <meta charset="UTF-8">
+    <title>My Styled Website</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #2a9d8f;
+        }
+        p {
+            color: #264653;
+            font-size: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #e76f51;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #d62828;
+        }
+    </style>
 </head>
 <body>
-  <h1>Hello from Error!</h1>
-  <p>This HTML file is deployed using Jenkins CI.</p>
+    <h1>Welcome to Gagan's Page</h1>
+    <p>This is a styled website running with Docker + Jenkins</p>
+    <button class="btn" onclick="alert('You clicked!')">Click Me</button>
 </body>
 </html>
